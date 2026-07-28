@@ -1,5 +1,5 @@
 import React from "react";
-import Grocery from "../../assets/grocery.png";
+import grocery from "../../assets/grocery.png";
 import Button from "../Button/Button";
 
 const Hero = () => {
@@ -19,7 +19,7 @@ const Hero = () => {
         {/* End Hero content */}
         {/* Hero Img */}
         <div className=" flex-1">
-          <img src={Grocery} alt="Hero Image" />
+          <img src={grocery} alt="Hero Image" />
         </div>
         {/* End Hero Img */}
       </div>
