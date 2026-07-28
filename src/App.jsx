@@ -14,27 +14,27 @@ function App() {
       element: <Layout />,
       children: [
         {
-          path: "/",
+         index:true ,
           element: <Home />,
         },
         {
-          path: "/fruits",
+          path: "fruits",
           element: <Fruits />,
         },
         {
-          path: "/dairy",
+          path: "dairy",
           element: <Dairy />,
         },
         {
-          path: "/seafood",
+          path: "seafood",
           element: <SeaFood />,
         },
         {
-          path: "/all",
+          path: "all",
           element: <AllProducts />,
         },
         {
-          path: "/cart",
+          path: "cart",
           element: <Cart />,
         },
       ],
